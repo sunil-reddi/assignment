@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup</title>
+    <link rel="stylesheet" href="pop.css">
+    <script defer src="script1.js"></script>
+</head>
+<body>
+
+    <button data-modal-target="#modal1">Open</button>
+    <div class="modal" id="modal1">
+        <div class="modal-header">
+        <div class="title"> Open Example</div>
+        <button data-close-button class="close-button">X</button>
+        </div>
+        <div class="modalbody">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Modi necessitatibus quis quaerat optio debitis dolorem 
+            reiciendis hic dicta sint suscipit, blanditiis consectetur 
+            obcaecati ullam molestiae laboriosam sapiente commodi, 
+            temporibus sit numquam qui reprehenderit, vitae cupiditate. 
+            Veniam pariatur doloremque nam minusnnn?
+        </div>
+    </div>
+    <div id="overlay"></div>
+    
+    <button data-modal-target="#modal2">Warning</button>
+    <div class="modal" id="modal2">
+        <div class="modal-header">
+        <div class="title">Warning</div>
+        <button data-close-button class="close-button">X</button>
+        </div>
+        <div class="modalbody">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Modi necessitatibus quis quaerat optio debitis dolorem 
+            reiciendis hic dicta sint suscipit, blanditiis consectetur 
+            obcaecati ullam molestiae laboriosam sapiente commodi, 
+            temporibus sit numquam qui reprehenderit, vitae cupiditate. 
+            Veniam pariatur doloremque nam minus?
+        </div>
+    </div>
+    <div id="overlay"></div>
+   
+   
+</body>
+</html>
